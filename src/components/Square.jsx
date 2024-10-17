@@ -1,9 +1,9 @@
 
-
 // COMPONENTE SQUARE --> SEPARADO DE LA APP
 // children: el valor que tiene que tener dentro del tablero 'X' o 'O'
 // updateBoard: una forma de actualizar el tablero
 // index: saber que celda se ha clicado
+// isSelected: saber si el turno es el de X o O
 export const Square = ({ children, isSelected, updateBoard, index }) => {
     const className = `square ${isSelected ? 'is-selected' : ''}`
 

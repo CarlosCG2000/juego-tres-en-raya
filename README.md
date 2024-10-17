@@ -42,7 +42,7 @@ Parámetros:
 Descripción:
 Es un recuadro dependiendo de que turno toque al usuario.
 
-### Winner.jsx: 
+### Winner.jsx:
 Parámetros:
 1. winner: es el resultado de la partida, si es null no ha acabado la partida, si es false hay empate (tablas), si es 'X' o 'O' hay un ganador.
 2. resetGame: es la función para reiniciar el juego.
@@ -50,7 +50,7 @@ Descripción:
 Saldría en formato de pop up una celda con el valor del ganador o empate y el botón de reset.
 
 ## 3 ESTADOS (UseState)
-- Board: las nueve posiciones del tablero (cada celda). 
+- Board: las nueve posiciones del tablero (cada celda).
 El estado inicial seria nueve posiciones a null y se va a ir actualizando por movimiento.
 
 - Turn: las dos posibles posiciones del turno según el jugador, es decir ‘X’ y ‘O’.
@@ -71,15 +71,15 @@ El estado inicial seria null (que la partida no ha finalizado) y se iría actual
 
 - Función para comprobar ganador.
 Se le pasa el tablero.
-Se crea un array con los índices de los 9 posibles casos de ganar la partida si coincide el valor de esos índices. Se recorre toda la tabla viendo si en algún caso esos índices tienen el mismo valor en el tablero.  
+Se crea un array con los índices de los 9 posibles casos de ganar la partida si coincide el valor de esos índices. Se recorre toda la tabla viendo si en algún caso esos índices tienen el mismo valor en el tablero.
 En caso de que no sea a si devuelve ‘null’ en cambio sí hay una coincidencia devuelve el valor (‘X’ o ‘O’) en el que coincide esos 3 índices.
 
-### ESQUEMA 
+### ESQUEMA
 <div align="center">
   <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
 </div>
 
-### INTERFAZ 
+### INTERFAZ
 <div align="center">
   <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
 </div>
