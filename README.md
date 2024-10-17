@@ -81,5 +81,5 @@ En caso de que no sea a si devuelve ‘null’ en cambio sí hay una coincidenci
 
 ### INTERFAZ 
 <div align="center">
-  <img src="./public/2-tres-en-raya.png" alt="Interfaz del proyecto" width="800"/>
+  <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
 </div>
