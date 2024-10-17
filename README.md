@@ -73,3 +73,13 @@ El estado inicial seria null (que la partida no ha finalizado) y se iría actual
 Se le pasa el tablero.
 Se crea un array con los índices de los 9 posibles casos de ganar la partida si coincide el valor de esos índices. Se recorre toda la tabla viendo si en algún caso esos índices tienen el mismo valor en el tablero.  
 En caso de que no sea a si devuelve ‘null’ en cambio sí hay una coincidencia devuelve el valor (‘X’ o ‘O’) en el que coincide esos 3 índices.
+
+### ESQUEMA 
+<div align="center">
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
+</div>
+
+### INTERFAZ 
+<div align="center">
+  <img src="./public/2-tres-en-raya.png" alt="Interfaz del proyecto" width="800"/>
+</div>
