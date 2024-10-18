@@ -8,6 +8,7 @@ import { WinnerModal } from './components/WinnerModal.jsx'
 import { saveGameToStorage, resetGameStorage } from './logic/storage/index.js'
 import { Board } from './components/Board.jsx'
 import { Turn } from './components/Turn.jsx'
+import { Copyright } from './components/copyright/Copyright.jsx'
 
 function App() {
 
@@ -93,6 +94,8 @@ function App() {
       <Turn turn={turn} />
 
       <WinnerModal resetGame={resetGame} winner={winner} />
+
+      <Copyright />
 
     </main>
   )
