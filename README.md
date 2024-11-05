@@ -3,17 +3,6 @@
 
 ## JS + React + Vite
 
-### ESQUEMA
-<div align="center">
-  <img src="./public/esquema.png" alt="Esquema del proyecto" width="650"/>
-</div>
-
-### INTERFAZ
-<div align="center" style="padding-bottom: 40px;">
-  <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
-</div>
-
-## EXPLICACIÓN
 Primero hay que pensar en que objetos y datos se necesita para formar el juego:
 1_Necesitaremos principalmente un tablero que podría ser una constante de 9 elementos ya que va a ver 9 posiciones posibles.
 2_Tambien vamos a necesitar dos jugadores es decir dos turnos por lo tanto necesitaríamos una constante como un objeto con dos valores (como ‘X’ y ‘O’).
@@ -29,6 +18,16 @@ Entonces como Hook de estado (useState) necesitaremos el tablero con las 9 posic
 Igualmente necesitaremos un estado para el turno (‘X’ y ‘O’) que debemos de ir sabiendo y actualizando cuando cambie.
 
 Yo pensaría y dividirá todo en 3 partes: componentes necesarios, estados necesarios, lógica funcional.
+
+### ESQUEMA
+<div align="center">
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="650"/>
+</div>
+
+### INTERFAZ
+<div align="center" style="padding-bottom: 40px;">
+  <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
+</div>
 
 ## 4 COMPONENTES
  
