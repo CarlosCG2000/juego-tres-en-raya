@@ -3,6 +3,16 @@
 
 ## JS + React + Vite
 
+### ESQUEMA
+<div align="center">
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
+</div>
+
+### INTERFAZ
+<div align="center">
+  <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
+</div>
+
 Primero hay que pensar en que objetos y datos se necesita para formar el juego:
 1_Necesitaremos principalmente un tablero que podría ser una constante de 9 elementos ya que va a ver 9 posiciones posibles.
 2_Tambien vamos a necesitar dos jugadores es decir dos turnos por lo tanto necesitaríamos una constante como un objeto con dos valores (como ‘X’ y ‘O’).
@@ -73,13 +83,3 @@ El estado inicial seria null (que la partida no ha finalizado) y se iría actual
 Se le pasa el tablero.
 Se crea un array con los índices de los 9 posibles casos de ganar la partida si coincide el valor de esos índices. Se recorre toda la tabla viendo si en algún caso esos índices tienen el mismo valor en el tablero.
 En caso de que no sea a si devuelve ‘null’ en cambio sí hay una coincidencia devuelve el valor (‘X’ o ‘O’) en el que coincide esos 3 índices.
-
-### ESQUEMA
-<div align="center">
-  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
-</div>
-
-### INTERFAZ
-<div align="center">
-  <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
-</div>
