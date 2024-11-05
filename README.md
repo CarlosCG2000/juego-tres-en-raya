@@ -13,6 +13,7 @@
   <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
 </div>
 
+## EXPLICACIÓN
 Primero hay que pensar en que objetos y datos se necesita para formar el juego:
 1_Necesitaremos principalmente un tablero que podría ser una constante de 9 elementos ya que va a ver 9 posiciones posibles.
 2_Tambien vamos a necesitar dos jugadores es decir dos turnos por lo tanto necesitaríamos una constante como un objeto con dos valores (como ‘X’ y ‘O’).
