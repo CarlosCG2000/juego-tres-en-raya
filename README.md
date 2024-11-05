@@ -5,13 +5,14 @@
 
 ### ESQUEMA
 <div align="center">
-  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="650"/>
 </div>
 
 ### INTERFAZ
 <div align="center">
   <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
 </div>
+
 
 Primero hay que pensar en que objetos y datos se necesita para formar el juego:
 1_Necesitaremos principalmente un tablero que podría ser una constante de 9 elementos ya que va a ver 9 posiciones posibles.
