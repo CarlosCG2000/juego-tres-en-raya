@@ -9,7 +9,7 @@
 </div>
 
 ### INTERFAZ
-<div align="center" margin-bottom="20px">
+<div align="center" styles="margin-bottom=20px">
   <img src="./public/2-tres-en-raya.webp" alt="Interfaz del proyecto" width="800"/>
 </div>
 
